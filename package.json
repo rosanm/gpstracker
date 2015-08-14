@@ -1,0 +1,14 @@
+{
+  "name": "whereami",
+  "version": "1.0.0",
+  "description": "gps app",
+  "main": "app.js",
+  "scripts": {
+    "test": "-t"
+  },
+  "author": "r. mosterman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

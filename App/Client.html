@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="main.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="GpsClient.js"></script>
+</head>
+<body>
+    <section class="container">
+        <nav>
+            <ul class="nav nav-tabs">
+                <li><a>Home</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </nav>
+        <section class="wrapper">
+            <div class="toggle">
+                <div class="form-group">
+                    <label>Groepnaam</label>
+                    <input class="form-control" type="text" id="input-name" />
+                </div>
+                <button type="submit" class="btn btn-block" onclick="create()">Aanmelden</button>
+            </div>
+            <div class="toggle" style="display:none;">
+                <button class ="btn btn-block" onclick="update()">Stuur mijn locatie</button>
+            </div>
+            <div id="message"></div>
+        </section>
+    </section>
+</body>
+</html>

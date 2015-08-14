@@ -1,0 +1,26 @@
+﻿body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #808080;
+}
+body a {
+  cursor: pointer;
+}
+body .name-placeholder {
+  font-size: 22px;
+}
+nav {
+  margin-top: 15px;
+  background-color: #ffffff;
+}
+#content article {
+  border: 1px solid #ffffff;
+}
+.wrapper {
+  margin-top: 15px;
+}
+footer {
+  background-color: #333333;
+  height: 150px;
+}
+/*# sourceMappingURL=main.css.map */
